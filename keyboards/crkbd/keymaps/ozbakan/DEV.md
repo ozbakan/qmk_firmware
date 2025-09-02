@@ -13,6 +13,7 @@ Quick reference for building, flashing, cabling, and usage on macOS.
 - Build UF2:
   - `qmk compile -kb crkbd/rev4_1/standard -km ozbakan`
   - Output: `.build/crkbd_rev4_1_standard_ozbakan.uf2` (also copied to repo root)
+  - Convenience copy: `keyboards/crkbd/keymaps/ozbakan/crkbd_rev4_1_standard_ozbakan.uf2`
 
 ## Flash (each half separately)
 1) Unplug the TRRS cable between halves.
@@ -35,12 +36,13 @@ Quick reference for building, flashing, cabling, and usage on macOS.
 
 ## Layout essentials
 - Thumbs:
-  - Left: `[ Ctrl | MO(1) Numbers | LT(2, Esc) ]` (tap = Esc, hold = Symbols)
-- Right: `[ Enter | Space | RGUI ]`
+  - Left: `[ Cmd | MO(1) Numbers | LT(2, Esc) ]` (tap = Esc, hold = Symbols)
+  - Right: `[ Enter | Space | RCtrl ]`
 - Layer 1 (Numbers): hold left‑center `MO(1)` for `1–0`; arrows on right home row.
 - Layer 2 (Symbols + Mac controls): hold left‑inner `LT(2, Esc)`.
   - Left middle row: `MUTE`, `VOLD`, `VOLU`, `~`
   - Left bottom row: `Ctl+Sp` (input source), `F14`, `F15`, `` ` ``
+  - Right top row: `^  &  (  )  *  Bspc`
   - Right: `-` and `+` side‑by‑side; `_` under `-`; `=` under `+`; `{ } |` nearby.
 - Two Shifts: bottom corners (left and right) on all layers.
 

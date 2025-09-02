@@ -7,8 +7,8 @@ Access
 - Symbols + Mac controls: hold `LT(2, Esc)` on left-inner thumb (tap = `Esc`).
 
 Thumbs
-- Left thumbs (Outer | Center | Inner): `[ Ctrl | MO(1) | LT(2, Esc) ]`
-- Right thumbs (Inner | Center | Outer): `[ Enter | Space | RGUI ]`
+- Left thumbs (Outer | Center | Inner): `[ Cmd | MO(1) | LT(2, Esc) ]`
+- Right thumbs (Inner | Center | Outer): `[ Enter | Space | RCtrl ]`
 
 Legend
 - `MO(n)`: hold to momentarily access layer `n`.
@@ -22,8 +22,8 @@ Base (Layer 0)
 [ Tab   Q   W   E   R   T ]   [ Y    U    I    O    P    Bspc ]
 [ Ctrl  A   S   D   F   G ]   [ H    J    K    L    ;    '    ]
 [ Shift Z   X   C   V   B ]   [ N    M    ,    .    /    Shift ]
-Left thumbs  (Outer | Center | Inner): [ Ctrl | MO(1)     | LT(2, Esc) ]
-Right thumbs (Inner | Center | Outer): [ Enter | Space    | RGUI       ]
+Left thumbs  (Outer | Center | Inner): [ Cmd  | MO(1)     | LT(2, Esc) ]
+Right thumbs (Inner | Center | Outer): [ Enter | Space    | RCtrl      ]
 
 Layer 1 — Numbers (MO(1), hold)
 [ Tab   1   2   3   4   5 ]   [ 6    7    8    9    0    Bspc ]
@@ -32,7 +32,7 @@ Layer 1 — Numbers (MO(1), hold)
 Thumbs: same as base
 
 Layer 2 — Symbols + Mac controls (hold via LT(2, Esc))
-[ Tab   !    @    #    $    % ]   [ ^    &    *    (    )    Bspc ]
+[ Tab   !    @    #    $    % ]   [ ^    &    (    )    *    Bspc ]
 [ Ctrl  ·    MUTE  VOLD VOLU  ~ ]   [ -    +    [    ]    \\    ·   ]
 [ Shift ·   Ctl+Sp F14  F15   ` ]   [ _    =    {    }    |    Shift ]
 ```
