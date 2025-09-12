@@ -30,7 +30,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_LGUI, MO(1), LT(2, KC_ESC),                               LALT_T(KC_ENT), KC_SPC, KC_RCTL
     ),
 
-    // Layer 1: Numbers, Navigation, Zoom
+    // Layer 1: Numbers, Navigation, Easy Zoom
     [1] = LAYOUT_split_3x6_3_ex2(
         KC_LGUI,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,   KC_END,              KC_PGUP, KC_6,    KC_7,    KC_8,  KC_9,    KC_0,      KC_RGUI,
         KC_LCTL, _______, _______, _______, _______, _______, KC_HOME,             KC_PGDN, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, _______,   KC_RCTL,
@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                    _______, _______, _______,                               LGUI(KC_PLUS), LGUI(KC_MINS), LGUI(KC_EQL)
     ),
 
-    // Layer 2: Symbols, VS Code shortcuts, Zoom
+    // Layer 2: Symbols
     [2] = LAYOUT_split_3x6_3_ex2(
         KC_LGUI,  KC_EXLM, KC_AT,   KC_HASH, KC_DLR, KC_PERC, _______,              _______, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_ASTR, KC_RGUI,
         KC_LCTL, _______, _______, _______, _______, KC_TILD, _______,              _______, KC_MINS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS, KC_RCTL,
