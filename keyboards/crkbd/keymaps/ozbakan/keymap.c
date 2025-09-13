@@ -30,19 +30,19 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                 KC_LGUI, MO(1), LT(2, KC_ESC),                               LALT_T(KC_ENT), KC_SPC, KC_RCTL
     ),
 
-    // Layer 1: Numbers, Navigation, Easy Zoom
+    // Layer 1: Numbers, Navigation
     [1] = LAYOUT_split_3x6_3_ex2(
-        KC_LGUI,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,   KC_END,              KC_PGUP, KC_6,    KC_7,    KC_8,  KC_9,    KC_0,      KC_RGUI,
-        KC_LCTL, _______, _______, _______, _______, _______, KC_HOME,             KC_PGDN, KC_LEFT, KC_DOWN, KC_UP, KC_RGHT, _______,   KC_RCTL,
-        KC_LSFT, _______, _______, _______, _______, _______,                               _______, _______, _______, _______, _______, KC_RSFT,
-                                   _______, _______, _______,                               LGUI(KC_PLUS), LGUI(KC_MINS), LGUI(KC_EQL)
+        _______,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,   KC_END,              KC_PGUP, KC_6,    KC_7,    KC_8,   KC_9,     KC_0,    _______,
+        _______, _______, _______, _______, _______, _______, KC_HOME,             KC_PGDN, KC_LEFT, KC_DOWN, KC_UP,  KC_RGHT,  KC_P0,   _______,
+        _______, _______, _______, _______, _______, _______,                               MS_WHLL, MS_WHLD, MS_WHLU, MS_WHLR, MS_BTN1, MS_BTN2,
+                                   _______, _______, _______,                               KC_RGUI, KC_RCTL, KC_RSFT
     ),
 
     // Layer 2: Symbols
     [2] = LAYOUT_split_3x6_3_ex2(
-        KC_LGUI,  KC_EXLM, KC_AT,   KC_HASH, KC_DLR, KC_PERC, _______,              _______, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_ASTR, KC_RGUI,
-        KC_LCTL, _______, _______, _______, _______, KC_TILD, _______,              _______, KC_MINS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS, KC_RCTL,
-        KC_LSFT, _______, _______, _______, _______, KC_GRV,                                 KC_UNDS, KC_EQL,  KC_LCBR, KC_RCBR, KC_PIPE, KC_RSFT,
-                                   _______, _______, _______,                                _______, _______, _______
+        _______,  KC_EXLM, KC_AT,   KC_HASH, KC_DLR, KC_PERC, _______,              _______, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_ASTR, _______,
+        _______, _______, _______, _______, _______, KC_TILD, _______,              _______, KC_MINS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS, _______,
+        _______, _______, _______, _______, _______,  KC_GRV,                                KC_UNDS, KC_EQL,  KC_LCBR, KC_RCBR, KC_PIPE, _______,
+                                   _______, _______, _______,                                KC_RGUI, KC_RCTL, KC_RSFT
     )
 };
