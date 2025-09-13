@@ -41,8 +41,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     // Layer 2: Symbols
     [2] = LAYOUT_split_3x6_3_ex2(
         _______,  KC_EXLM, KC_AT,   KC_HASH, KC_DLR, KC_PERC, _______,              _______, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_ASTR, _______,
-        _______, _______, _______, _______, _______, KC_TILD, _______,              _______, KC_MINS, KC_PLUS, KC_LBRC, KC_RBRC, KC_BSLS, _______,
-        _______, _______, _______, _______, _______,  KC_GRV,                                KC_UNDS, KC_EQL,  KC_LCBR, KC_RCBR, KC_PIPE, _______,
+        _______, _______, _______, _______, _______, KC_TILD, _______,              _______, KC_MINS, KC_PLUS, KC_LBRC, KC_RBRC, KC_PIPE, _______,
+        _______, _______, _______, _______, _______,  KC_GRV,                                KC_UNDS, KC_EQL,  KC_LCBR, KC_RCBR, KC_BSLS, _______,
                                    _______, _______, _______,                                KC_RGUI, KC_RCTL, KC_RSFT
     )
 };
