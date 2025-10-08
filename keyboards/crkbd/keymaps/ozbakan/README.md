@@ -1,18 +1,78 @@
+# ozbakan's CRKBD Keymap
 
-# Layer 0: Base QWERTY, Volume and Brightness
-KC_TAB,  KC_Q, KC_W, KC_E, KC_R, KC_T, KC_F15,              KC_VOLU, KC_Y, KC_U, KC_I, KC_O, KC_P,    KC_BSPC,
-KC_LCTL, KC_A, KC_S, KC_D, KC_F, KC_G, KC_F14,              KC_VOLD, KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT,
-KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B,                               KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_RSFT,
-        KC_LGUI, MO(1), LT(2, KC_ESC),                               LALT_T(KC_ENT), KC_SPC, KC_RCTL
+This keymap is optimized for macOS and features three layers with a logical split keyboard layout.
 
-# Layer 1: Numbers, Navigation
-_______,  KC_1,    KC_2,    KC_3,    KC_4,    KC_5,   KC_END,              KC_PGUP, KC_6,    KC_7,    KC_8,   KC_9,     KC_0,    _______,
-_______, _______, _______, _______, _______, _______, KC_HOME,             KC_PGDN, KC_LEFT, KC_DOWN, KC_UP,  KC_RGHT,  KC_P0,   _______,
-_______, _______, _______, _______, _______, _______,                               MS_WHLL, MS_WHLD, MS_WHLU, MS_WHLR, MS_BTN1, MS_BTN2,
-                           _______, _______, _______,                               KC_RGUI, KC_RCTL, KC_RSFT
+## Layer 0: Base QWERTY, Volume and Brightness
 
-# Layer 2: Symbols
-_______,  KC_EXLM, KC_AT,   KC_HASH, KC_DLR, KC_PERC, _______,              _______, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_ASTR, _______,
-_______, _______, _______, _______, _______, KC_TILD, _______,              _______, KC_MINS, KC_PLUS, KC_LBRC, KC_RBRC, KC_PIPE, _______,
-_______, _______, _______, _______, _______,  KC_GRV,                                KC_UNDS, KC_EQL,  KC_LCBR, KC_RCBR, KC_BSLS, _______,
-                           _______, _______, _______,                                KC_RGUI, KC_RCTL, KC_RSFT
+### Left Side
+| Row | Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 | Extra |
+|-----|-------|-------|-------|-------|-------|-------|-------|
+| 1   | TAB   | Q     | W     | E     | R     | T     | F15   |
+| 2   | LCTL  | A     | S     | D     | F     | G     | F14   |
+| 3   | LSFT  | Z     | X     | C     | V     | B     |       |
+
+**Thumb Keys:** LGUI | MO(1) | LT(2, ESC)
+
+### Right Side
+| Extra | Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 |
+|-------|-------|-------|-------|-------|-------|-------|
+| VOLU  | Y     | U     | I     | O     | P     | BSPC  |
+| VOLD  | H     | J     | K     | L     | ;     | '     |
+|       | N     | M     | ,     | .     | /     | RSFT  |
+
+**Thumb Keys:** LALT_T(ENT) | SPC | RCTL
+
+---
+
+## Layer 1: Numbers, Navigation
+
+### Left Side
+| Row | Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 | Extra |
+|-----|-------|-------|-------|-------|-------|-------|-------|
+| 1   | -     | 1     | 2     | 3     | 4     | 5     | END   |
+| 2   | -     | -     | -     | -     | -     | -     | HOME  |
+| 3   | -     | -     | -     | -     | -     | -     |       |
+
+**Thumb Keys:** - | - | -
+
+### Right Side
+| Extra | Key 1   | Key 2   | Key 3   | Key 4   | Key 5   | Key 6 |
+|-------|---------|---------|---------|---------|---------|-------|
+| PGUP  | 6       | 7       | 8       | 9       | 0       | -     |
+| PGDN  | LEFT    | DOWN    | UP      | RIGHT   | P0      | -     |
+|       | MS_WHLL | MS_WHLD | MS_WHLU | MS_WHLR | MS_BTN1 | MS_BTN2 |
+
+**Thumb Keys:** RGUI | RCTL | RSFT
+
+---
+
+## Layer 2: Symbols
+
+### Left Side
+| Row | Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 | Extra |
+|-----|-------|-------|-------|-------|-------|-------|-------|
+| 1   | -     | !     | @     | #     | $     | %     | -     |
+| 2   | -     | -     | -     | -     | -     | ~     | -     |
+| 3   | -     | -     | -     | -     | -     | `     |       |
+
+**Thumb Keys:** - | - | -
+
+### Right Side
+| Extra | Key 1 | Key 2 | Key 3 | Key 4 | Key 5 | Key 6 |
+|-------|-------|-------|-------|-------|-------|-------|
+| -     | ^     | &     | (     | )     | *     | -     |
+| -     | -     | +     | [     | ]     | \|    | -     |
+|       | _     | =     | {     | }     | \     | -     |
+
+**Thumb Keys:** RGUI | RCTL | RSFT
+
+---
+
+## Key Descriptions
+
+- **MO(1)**: Momentary switch to Layer 1
+- **LT(2, ESC)**: Layer tap - hold for Layer 2, tap for ESC
+- **LALT_T(ENT)**: Alt when held, Enter when tapped
+- **MS_WHLL/MS_WHLD/MS_WHLU/MS_WHLR**: Mouse wheel left/down/up/right
+- **MS_BTN1/MS_BTN2**: Mouse button 1/2
+- **-**: Transparent (passes through to lower layer)
